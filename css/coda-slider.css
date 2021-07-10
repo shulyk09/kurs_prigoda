@@ -1,0 +1,130 @@
+#slider {
+    position: relative;
+	width: 100%;
+}
+
+#tooplate_wrapper {
+	width: 840px;
+	padding: 0px 0px;
+	margin: 0 auto;
+	background: url(../images/tooplate_body.jpg) no-repeat top center
+}
+
+#tooplate_sidebar {
+	float: left;	
+	width: 250px;
+}
+
+#header {
+	width: 600px;
+	text-align: left;
+	margin-bottom: 80px
+}
+
+#header h1 { 
+	margin: 0; 
+	padding: 0; 
+	height: 50px; 
+	display: block; 
+	text-indent: 0px; 
+}
+
+#menu {
+	clear: both;
+	width: 220px;
+	height: 887px;
+	padding: 0px;
+	background: none
+}
+
+#content {
+	float: right;
+	width: 588px;
+	height: 2500px;
+	background: url(../images/tooplate_content.png) repeat;
+	outline: 2px solid #000;
+}
+
+.content_section {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	border-bottom: 0px dashed #000000
+}
+
+.last_section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#footer {
+	clear: both;
+	width: 840px;
+	padding: 0 0 30px;
+	margin: 0 auto;
+	text-align: right
+}
+
+#footer a {
+	color: #000;
+}
+
+
+.scroll {
+	height: 2500px;
+	width: 528px;
+	margin: 44px;
+	overflow: auto;
+	overflow-x: hidden;
+	position: relative;
+	clear: both;
+}
+
+.scrollContainer div.panel {
+    height: 2500px;
+    width: 515px;
+	overflow: hidden;
+}
+
+ul.navigation {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+	ul.navigation li {
+		display: inline;
+		margin-bottom: 0;
+		padding: 0;
+		color: #000000;
+		border-bottom: 1px dashed #000000;
+		font-size: 22px;
+		font-weight: 400;
+		text-decoration: none;
+		font-family: "Times New Roman";
+	}
+
+	ul.navigation a {
+		display: block;
+		padding: 0 0 4px 20px;
+		margin-top:10px;
+		border-bottom: 0px dashed #08117e;
+		color: #000000;
+		font-size: 19px;
+		font-weight: 500;
+		text-decoration: none;
+		font-family: "Times New Roman";
+	}
+
+		ul.navigation a:hover, ul.navigation a.selected {
+			color: #08117e;
+			padding-left: 10px;
+		}
+
+ul.navigation a:focus {
+    outline: none;
+}
+
+.hide {
+    display: none;
+}
